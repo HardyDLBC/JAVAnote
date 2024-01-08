@@ -2271,10 +2271,6 @@ public class Test2 {
 
 
 
-
-
-
-
 <img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-05%2016.59.37.png?raw=true" style="zoom:50%;" />
 
 
@@ -2283,7 +2279,11 @@ public class Test2 {
 
 
 
+
+
 ![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-05%2017.24.41.png?raw=true)
+
+
 
 
 
@@ -2683,8 +2683,6 @@ class N implements IT1,IT2{
 
 
 
-
-
 内部类有四种形式
 
 1. 成员内部类【了解】
@@ -2977,6 +2975,8 @@ public class Test {
 
 <img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-08%2023.45.28.png?raw=true" style="zoom:33%;" />
 
+
+
 注意：
 
 - 枚举类中的第一行，只能写一些合法的标识符（名称），多个名称用逗号隔开。
@@ -2985,6 +2985,8 @@ public class Test {
 枚举的特点：
 
 <img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-08%2023.54.12.png?raw=true" style="zoom:50%;" />
+
+
 
 - 枚举类的第一行只能罗列一些名称，这些名称都是常量，并且每个常量记住的都是枚举类的一个对象。
 - 枚举类的构造器都是私有的（写不写都只能是私有的），因此，枚举类对外不能创建对象。
@@ -3110,6 +3112,8 @@ public enum CAloneCase {
 案例：通过男生和女生进入不同内容的书城。往方法里传入性别参数
 
 <img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-10%2015.58.28.png?raw=true" style="zoom:33%;" />
+
+
 
 
 
@@ -7397,6 +7401,8 @@ public class ListTest2Ergodic {
 
 
 
+
+
 特点：
 
 - 查询速度快（注意：是根据索引查询数据快）：查询数据通过地址值和索引定位，查询任意数据耗时相同。
@@ -7454,6 +7460,8 @@ LinkedList新增了：很多首尾操作的特有方法
 
 
 <img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-19%2021.09.15.png?raw=true" style="zoom:33%;" /> 
+
+
 
 
 
@@ -7670,6 +7678,8 @@ HashSet集合的底层原理
 JDK8之前HashSet集合的底层原理，基于哈希表：数组+链表
 
 ![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2023-11-19%2022.27.00.png?raw=true)
+
+
 
 
 
@@ -11133,6 +11143,8 @@ public class PrintTest2 {
 
 ![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-03%2016.07.14.png?raw=true)
 
+
+
 ```java
 package com.itheima.p5_data_stream;
 
@@ -11173,6 +11185,8 @@ public class DataOutputStreamTest1 {
 - 用于读取数据输出流写出去的数据。
 
 ![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-03%2016.14.25.png?raw=true)
+
+
 
 ```java
 package com.itheima.p5_data_stream;
@@ -12122,7 +12136,7 @@ public class LogBackTest {
 
 
 
-## 多线程的创建
+## 一、多线程的创建
 
 ### 方式一：继承Thread类
 
@@ -12371,7 +12385,7 @@ main thread 1 output5
 
 FutureTask的API
 
-![](/Users/Hardy/Desktop/JAVA/Note/JAVA入门黑马徐磊/图片/截屏2024-01-05 21.46.11.png)
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-05%2021.46.11.png?raw=true)
 
 
 
@@ -12448,13 +12462,13 @@ This thread calculate the sum of 1-200: 20100
 
 
 
-## Thread的常用方法
+## 二、Thread的常用方法
 
 
 
 Thread提供了很多与线程操作相关的方法
 
-![](/Users/Hardy/Desktop/JAVA/Note/JAVA入门黑马徐磊/图片/截屏2024-01-05 21.49.50.png)
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-05%2021.49.50.png?raw=true)
 
 Thread类还提供了：yield, interrupt, 守护线程, 线程优先级等线程的控制方法，在开发中很少使用，这些方法会后续需要用到的时候再讲解。
 
@@ -12592,7 +12606,7 @@ public class ThreadTest2 {
 
 
 
-## 线程安全
+## 三、线程安全
 
 ### 什么是线程安全问题？
 
@@ -12604,13 +12618,13 @@ public class ThreadTest2 {
 
 - 场景：小明和小红是一对夫妻，他们有一个共同的账户，余额是10万元，如果小明和小红同事来取钱，并且2人各自都在取钱10万元，可能会出现什么问题呢？
 
-![](/Users/Hardy/Desktop/JAVA/Note/JAVA入门黑马徐磊/图片/截屏2024-01-05 22.24.16.png)
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-05%2022.24.16.png?raw=true)
 
 
 
 ### 用程序模拟线程安全问题
 
-<img src="/Users/Hardy/Desktop/JAVA/Note/JAVA入门黑马徐磊/图片/截屏2024-01-05 22.31.03.png" style="zoom:33%;" /> 
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-05%2022.31.03.png?raw=true" style="zoom:33%;" /> 
 
 
 
@@ -12713,7 +12727,3781 @@ public class Account {
 
 
 
+## 四、线程同步
 
+### 认识线程同步
+
+
+
+线程同步
+
+- 解决线程安全问题的方案。
+
+
+
+线程同步的思想
+
+- 让多个线程实现先后依次访问共享资源，这样就解决了安全问题。
+
+
+
+线程同步的常见方案
+
+- 加锁：每次只允许一个线程加锁，加锁后才能进入访问，访问完毕后自动解锁，然后其他线程才能再加锁进来。(厕所占坑原理)
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2009.30.38.png?raw=true" style="zoom:33%;" /> 
+
+
+
+### 方式一：同步代码块
+
+
+
+同步代码块
+
+- 作用：把访问共享资源的核心代码给上锁，以此保证线程安全。
+- 原理：每次只允许一个线程加锁后进入，执行完毕后自动解锁，其他线程才可以进来执行。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2009.36.40.png?raw=true" style="zoom:33%;" /> 
+
+
+
+同步锁的注意事项
+
+- 对于当前同时执行的线程来说，同步锁必须是同一把（同一个对象），否则会出bug。
+
+
+
+锁对象随便选择一个唯一的对象好不好呢？
+
+- 不好，会影响其他无关线程的执行。
+
+
+
+锁对象的使用规范
+
+- 建议使用共享资源作为锁对象，对于实例方法建议使用this作为锁对象。
+- 对于静态方法建议使用字节码（类名.class）对象作为锁对象。
+
+
+
+同步代码块介绍代码：
+
+```java
+package com.itheima.p4_synchronized_code;
+
+// 目标：模拟线程安全问题
+public class ThreadTest {
+    public static void main(String[] args) {
+        // 1. 创建一个账户对象，代表两个人的共享账户。
+        Account acc = new Account("ICBC-110", 100000);
+        // 2. 创建两个线程，分别代表小明 小红，再去同一账户对象中取钱10万。
+        new DrawThread(acc, "小明").start(); //小明
+        new DrawThread(acc, "小红").start(); //小红
+
+        Account acc1 = new Account("ICBC-112", 100000);
+        // 2. 创建两个线程，分别代表小明 小红，再去同一账户对象中取钱10万。
+        new DrawThread(acc1, "小黑").start(); //小黑
+        new DrawThread(acc1, "小白").start(); //小白
+    }
+}
+
+```
+
+````java
+package com.itheima.p4_synchronized_code;
+
+public class DrawThread extends Thread{
+
+    // 保证两个线程对象处理的是同一个账户
+    private Account acc;
+    public DrawThread(Account acc, String name){
+        super(name);
+        this.acc = acc;
+    }
+    @Override
+    public void run() {
+        // 取钱（小明，小红）
+        acc.drawMoney(100000);
+    }
+}
+
+````
+
+````java
+
+package com.itheima.p4_synchronized_code;
+
+public class Account {
+    private String cardId; // 卡号
+    private double money; // 余额
+
+    public Account() {
+    }
+
+    public Account(String cardId, double money) {
+        this.cardId = cardId;
+        this.money = money;
+    }
+    
+    public static void test(){
+        synchronized (Account.class){ //静态方法用类名.class作锁，锁住所有用当前类名访问方法的线程
+        }
+    }
+
+    // 小明 小红同时过来的
+    public void drawMoney(double withdrawMoney) {
+        // 先搞清楚是谁来取钱？
+        String name = Thread.currentThread().getName();
+
+        // 1. 判断余额是否足够
+        // this正好代表共享资源！
+        synchronized (this) {
+            if (this.money >= withdrawMoney){
+                System.out.println(name+" get money "+withdrawMoney+" successfully");
+                this.money -= withdrawMoney;
+                System.out.println(name+" has a balance of "+this.money);
+            }else {
+                System.out.println(name+" balance is not enough.");
+            }
+        }
+    }
+
+    public String getCardId() {
+        return cardId;
+    }
+
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+
+}
+
+````
+
+```
+小黑 get money 100000.0 successfully
+小明 get money 100000.0 successfully
+小明 has a balance of 0.0
+小黑 has a balance of 0.0
+小红 balance is not enough.
+小白 balance is not enough.
+```
+
+
+
+### 方式二：同步方法
+
+同步方法
+
+- 作用：把访问共享资源的核心方法给上锁，以此保证线程安全。（把方法锁起来）
+- 原理：每次只能一个线程进入，执行完毕后自动解锁，其他线程才可以进行执行。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2010.09.17.png?raw=true" style="zoom:33%;" /> 
+
+
+
+同步方法底层原理
+
+- 同步方法其实底层也是有隐式锁对象的，只是锁的范围是整个方法代码。
+- 如果方法是实力方法：同步方法默认用this作为锁对象。
+- 如果方法是静态方法：同步方法默认用类名.this作为锁的对象。
+
+
+
+同步方法介绍代码：
+
+```java
+package com.itheima.p5_synchronized_method;
+
+import com.itheima.p5_synchronized_method.Account;
+import com.itheima.p5_synchronized_method.DrawThread;
+
+// 目标：模拟线程安全问题
+public class ThreadTest {
+    public static void main(String[] args) {
+        // 1. 创建一个账户对象，代表两个人的共享账户。
+        Account acc = new Account("ICBC-110", 100000);
+        // 2. 创建两个线程，分别代表小明 小红，再去同一账户对象中取钱10万。
+        new DrawThread(acc, "小明").start(); //小明
+        new DrawThread(acc, "小红").start(); //小红
+
+    }
+}
+
+```
+
+```java
+package com.itheima.p5_synchronized_method;
+
+import com.itheima.p5_synchronized_method.Account;
+
+public class DrawThread extends Thread{
+
+    // 保证两个线程对象处理的是同一个账户
+    private Account acc;
+    public DrawThread(Account acc, String name){
+        super(name);
+        this.acc = acc;
+    }
+    @Override
+    public void run() {
+        // 取钱（小明，小红）
+        acc.drawMoney(100000);
+    }
+}
+
+```
+
+```java
+package com.itheima.p5_synchronized_method;
+
+public class Account {
+    private String cardId; // 卡号
+    private double money; // 余额
+
+    public Account() {
+    }
+
+    public Account(String cardId, double money) {
+        this.cardId = cardId;
+        this.money = money;
+    }
+
+    // 小明 小红同时过来的
+    public synchronized void drawMoney(double withdrawMoney) {
+        // 先搞清楚是谁来取钱？
+        String name = Thread.currentThread().getName();
+
+        // 1. 判断余额是否足够
+        if (this.money >= withdrawMoney){
+            System.out.println(name+" get money "+withdrawMoney+" successfully");
+            this.money -= withdrawMoney;
+            System.out.println(name+" has a balance of "+this.money);
+        }else {
+            System.out.println(name+" balance is not enough.");
+        }
+    }
+
+    public String getCardId() {
+        return cardId;
+    }
+
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+
+}
+
+```
+
+```
+小明 get money 100000.0 successfully
+小明 has a balance of 0.0
+小红 balance is not enough.
+```
+
+
+
+是同步代码块好还是同步方法好一点？
+
+- 范围上：同步代码块锁的范围更小，同步方法锁的范围更大。
+- 可读性：同步方法更好。
+
+
+
+### 方式三：Lock锁
+
+
+
+Lock锁
+
+- Lock锁是JDK5开始提供的一个新的锁定操作，通过它可以创建出锁对象进行加锁和解锁，更灵活、更方便、更强大。
+- Lock是接口，不能直接实例化，可以用它的实现类ReentrantLock来构建Lock锁对象。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2010.53.31.png?raw=true" style="zoom:33%;" /> 
+
+
+
+```java
+package com.itheima.p6_synchronized_lock;
+
+import com.itheima.p6_synchronized_lock.Account;
+import com.itheima.p6_synchronized_lock.DrawThread;
+
+// 目标：模拟线程安全问题
+public class ThreadTest {
+    public static void main(String[] args) {
+        // 1. 创建一个账户对象，代表两个人的共享账户。
+        Account acc = new Account("ICBC-110", 100000);
+        // 2. 创建两个线程，分别代表小明 小红，再去同一账户对象中取钱10万。
+        new DrawThread(acc, "小明").start(); //小明
+        new DrawThread(acc, "小红").start(); //小红
+
+    }
+}
+
+```
+
+````java
+package com.itheima.p6_synchronized_lock;
+
+import com.itheima.p6_synchronized_lock.Account;
+
+public class DrawThread extends Thread{
+
+    // 保证两个线程对象处理的是同一个账户
+    private Account acc;
+    public DrawThread(Account acc, String name){
+        super(name);
+        this.acc = acc;
+    }
+    @Override
+    public void run() {
+        // 取钱（小明，小红）
+        acc.drawMoney(100000);
+    }
+}
+
+````
+
+```java
+package com.itheima.p6_synchronized_lock;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Account {
+    private String cardId; // 卡号
+    private double money; // 余额
+
+    //创建了一个锁对象（每个账户都有自己的锁对象）
+    private final Lock lk = new ReentrantLock(); //加了final就不能对lk进行二次赋值=>专业
+
+    public Account() {
+    }
+
+    public Account(String cardId, double money) {
+        this.cardId = cardId;
+        this.money = money;
+    }
+
+    // 小明 小红同时过来的
+    public void drawMoney(double withdrawMoney) {
+        // 先搞清楚是谁来取钱？
+        String name = Thread.currentThread().getName();
+
+        try { //加try catch finally是因为如果try程序出现bug，仍然可以解锁。不会因为执行不到解锁导致其他线程进不去。
+            lk.lock(); // 加锁
+            // 1. 判断余额是否足够
+            if (this.money >= withdrawMoney){
+                System.out.println(name+" get money "+withdrawMoney+" successfully");
+                this.money -= withdrawMoney;
+                System.out.println(name+" has a balance of "+this.money);
+            }else {
+                System.out.println(name+" balance is not enough.");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            lk.unlock(); // 解锁
+        }
+    }
+
+    public String getCardId() {
+        return cardId;
+    }
+
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+
+}
+
+```
+
+````
+小明 get money 100000.0 successfully
+小明 has a balance of 0.0
+小红 balance is not enough.
+````
+
+
+
+## 五、线程通信[了解]
+
+
+
+**什么是线程通信？**
+
+- 当多个线程共同操作共享资源时，线程间通过某种方式互相告知自己的状态，以相互协调，并避免无效的资源争夺。
+
+
+
+**线程通信的常见模型（生产者与消费者模型）**
+
+- 生产者线程负责生成数据
+- 消费者线程负责消费生产者生成的数据
+- 注意：生产者生产完数据后应该让自己等待，通知其他消费者消费；消费者消费完数据之后应该让自己等待，同时通知生产者生成。
+
+
+
+**线程通信模型**
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2011.05.44.png?raw=true" style="zoom:33%;" /> 
+
+
+
+**Object类的等待和唤醒方法：**
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2011.21.11.png?raw=true" style="zoom:33%;" /> 
+
+
+
+注意
+
+- 上述方法应该使用当前同步锁对象进行调用。（cuz只有锁对象知道谁被锁，谁在等锁）
+
+
+
+生产者消费者案例代码
+
+```java
+package com.itheima.p7_thread_communication;
+
+/**
+ * 目标：了解一下线程通信。
+ */
+public class ThreadTest {
+    public static void main(String[] args) {
+        //   需求：3个生产者线程，负责生产包子，每个线程每次只能生产1个包子放在桌子上
+        //      2个消费者线程负责吃包子，每人每次只能从桌子上拿1个包子吃。
+        Desk desk  = new Desk();
+
+        // 创建3个生产者线程（3个厨师）
+        new Thread(() -> {
+            while (true) {
+                desk.put();
+            }
+        }, "厨师1").start();
+
+        new Thread(() -> {
+            while (true) {
+                desk.put();
+            }
+        }, "厨师2").start();
+
+        new Thread(() -> {
+            while (true) {
+                desk.put();
+            }
+        }, "厨师3").start();
+
+        // 创建2个消费者线程（2个吃货）
+        new Thread(() -> {
+            while (true) {
+                desk.get();
+            }
+        }, "吃货1").start();
+
+        new Thread(() -> {
+            while (true) {
+                desk.get();
+            }
+        }, "吃货2").start();
+    }
+}
+
+```
+
+```java
+package com.itheima.p7_thread_communication;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Desk {
+    private List<String> list = new ArrayList<>();
+
+    // 放1个包子的方法
+    // 厨师1 厨师2 厨师3
+    public synchronized void put() {
+        try {
+            String name = Thread.currentThread().getName();
+            // 判断是否有包子。
+            if(list.size() == 0){
+                list.add(name + "做的肉包子");
+                System.out.println(name + "做了一个肉包子~~");
+                Thread.sleep(2000);
+
+                // 唤醒别人, 等待自己。先唤醒别人，再等待自己。cuz自己睡着了唤醒不了别人
+                this.notifyAll();
+                this.wait();
+            }else {
+                // 有包子了，不做了。
+                // 唤醒别人, 等待自己。先唤醒别人，再等待自己。cuz自己睡着了唤醒不了别人
+                this.notifyAll();
+                this.wait();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // 吃货1 吃货2
+    public synchronized void get() {
+        try {
+            String name = Thread.currentThread().getName();
+            if(list.size() == 1){
+                // 有包子，吃了
+                System.out.println(name  + "吃了：" + list.get(0));
+                list.clear();
+                Thread.sleep(1000);
+                this.notifyAll();
+                this.wait();
+            }else {
+                // 没有包子
+                this.notifyAll();
+                this.wait();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+```
+厨师1做了一个肉包子~~
+吃货2吃了：厨师1做的肉包子
+厨师3做了一个肉包子~~
+吃货1吃了：厨师3做的肉包子
+厨师1做了一个肉包子~~
+吃货1吃了：厨师1做的肉包子
+厨师3做了一个肉包子~~
+吃货1吃了：厨师3做的肉包子
+```
+
+
+
+## 六、线程池
+
+### 6.1 认识线程池
+
+
+
+什么是线程池？
+
+- 线程池就是一个可以复用线程的技术。
+
+
+
+不使用线程池的问题
+
+- 假设：用户每次发起一个请求给后台，后台就创建一个新的线程来处理，下次新的任务过来肯定也会创建新的线程，如果用户量非常大，创建的线程也讲越来越多。然而，创建线程是开销很大的，并且请求过多时，会严重影响系统性能。
+
+
+
+线程池的工作原理
+
+如下图所示，线程池内部会有一个容器，存储几个核心线程，假设有3个核心线程，这3个核心线程可以处理3个任务。但是任务总有被执行完的时候，假设第1个线程的任务执行完了，那么第1个线程就空闲下来了，有新的任务时，空闲下来的第1个线程可以去执行其他任务。依此内推，这3个线程可以不断的复用，也可以执行很多个任务。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2011.57.31.png?raw=true" style="zoom:33%;" /> 
+
+
+
+### 6.2 如何创建线程池？
+
+
+
+谁代表线程池？
+
+- JDK5中提供了代表线程池的接口：ExecutorService
+
+
+
+如何得到线程池对象？
+
+- 方式一：使用Executor Service的实现类ThreadPoolExecutor自创键一个线程池对象。
+
+- 方式二：使用Executors（线程池的工具类）调用方法返回不同特点的线程池对象。
+
+
+
+线程池的注意事项
+
+1. 临时线程什么时候创建？
+   - 新任务提交时，发现核心线程都在忙、任务队列满了、并且还可以创建临时线程，此时会创建临时线程。
+2. 什么时候会开始拒绝新任务？
+   - 核心线程和临时线程都在忙、任务队列也满了、新任务过来时才会开始拒绝任务。
+
+
+
+ThreadPoolExecutor构造器
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2012.12.58.png?raw=true)
+
+
+
+线程池创建代码：
+
+```java
+package com.itheima.p8_thread_pool;
+
+import java.util.concurrent.*;
+
+// 目标：掌握线程池的创建
+public class ThreadPoolTest1 {
+    public static void main(String[] args) {
+        // 1. 通过ThreadPoolExecutor创建一个线程池对象。
+//            public ThreadPoolExecutor(int corePoolSize,
+//                                        int maximumPoolSize,
+//                                        long keepAliveTime,
+//                                        TimeUnit unit,
+//                                        BlockingQueue<Runnable> workQueue,
+//                                        ThreadFactory threadFactory,
+//                                        RejectedExecutionHandler handler)
+        ExecutorService pool =  new ThreadPoolExecutor(3, 5, 8, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(4), Executors.defaultThreadFactory(), new ThreadPoolExecutor.AbortPolicy());
+    }
+}
+
+```
+
+
+
+### 6.3 线程池处理Runnable任务
+
+
+
+ExecutorService的常用方法
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2015.58.45.png?raw=true" style="zoom:33%;" /> 
+
+
+
+新任务拒绝策略
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2016.04.29.png?raw=true" style="zoom:33%;" /> 
+
+
+
+线程池处理任务代码：
+
+```java
+package com.itheima.p8_thread_pool;
+
+import com.itheima.p1_create_thread.MyCallable;
+
+import java.util.concurrent.*;
+
+// 目标：掌握线程池的创建
+public class ThreadPoolTest1 {
+    public static void main(String[] args) {
+        // 1. 通过ThreadPoolExecutor创建一个线程池对象。
+//            public ThreadPoolExecutor(int corePoolSize,
+//                                        int maximumPoolSize,
+//                                        long keepAliveTime,
+//                                        TimeUnit unit,
+//                                        BlockingQueue<Runnable> workQueue,
+//                                        ThreadFactory threadFactory,
+//                                        RejectedExecutionHandler handler)
+        ExecutorService pool =  new ThreadPoolExecutor(3, 5, 8, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(4), Executors.defaultThreadFactory(), new ThreadPoolExecutor.CallerRunsPolicy());
+
+        Runnable target = new MyRunnable();
+        pool.execute(target); // 线程池会自动创建一个新县城，自动处理这个任务，自动执行的！
+        pool.execute(target); // 线程池会自动创建一个新县城，自动处理这个任务，自动执行的！
+        pool.execute(target); // 线程池会自动创建一个新县城，自动处理这个任务，自动执行的！
+        pool.execute(target); // 复用前面的核心线程
+        pool.execute(target); // 复用前面的核心线程
+        pool.execute(target); // 复用前面的核心线程
+        pool.execute(target); // 复用前面的核心线程
+        // 到了临时线程的创建时机了
+        pool.execute(target);
+        pool.execute(target);
+        // 到了新任务的拒绝时机了
+        pool.execute(target);
+
+        // pool.shutdown();  // 等着线程池的任务全部执行完毕后，再关闭线程池
+        // pool.shutdownNow(); // 立即关闭线程池！不管任务是否执行完毕。
+
+
+    }
+}
+
+```
+
+```java
+package com.itheima.p8_thread_pool;
+
+public class MyRunnable implements Runnable{
+    @Override
+    public void run() {
+        // 任务是干啥的？
+        System.out.println(Thread.currentThread().getName()+" => output666");
+        try {
+            Thread.sleep(Integer.MAX_VALUE);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+```
+pool-1-thread-3 => output666
+pool-1-thread-1 => output666
+pool-1-thread-2 => output666
+pool-1-thread-4 => output666
+main => output666
+pool-1-thread-5 => output666
+```
+
+
+
+### 6.4 线程池处理Callable任务
+
+
+
+ExecutorService的常用方法
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2016.08.47.png?raw=true" style="zoom:33%;" /> 
+
+
+
+线程池处理Callable任务代码：
+
+```java
+package com.itheima.p8_thread_pool;
+
+import java.util.concurrent.*;
+
+/**
+ * 目标：掌握线程池的创建。
+ */
+public class ThreadPoolTest2 {
+    public static void main(String[] args) throws Exception {
+        // 1、通过ThreadPoolExecutor创建一个线程池对象。
+        ExecutorService pool = new ThreadPoolExecutor(3, 5, 8,
+                TimeUnit.SECONDS, new ArrayBlockingQueue<>(4), Executors.defaultThreadFactory(),
+                new ThreadPoolExecutor.CallerRunsPolicy());
+
+        // 2、使用线程处理Callable任务。
+        Future<String> f1 = pool.submit(new MyCallable(100));
+        Future<String> f2 = pool.submit(new MyCallable(200));
+        Future<String> f3 = pool.submit(new MyCallable(300));
+        Future<String> f4 = pool.submit(new MyCallable(400));
+
+        System.out.println(f1.get());
+        System.out.println(f2.get());
+        System.out.println(f3.get());
+        System.out.println(f4.get());
+    }
+}
+
+```
+
+```java
+package com.itheima.p8_thread_pool;
+
+import java.util.concurrent.Callable;
+
+/**
+ * 1、让这个类实现Callable接口
+ */
+public class MyCallable implements Callable<String> {
+    private int n;
+    public MyCallable(int n) {
+        this.n = n;
+    }
+
+    // 2、重写call方法
+    @Override
+    public String call() throws Exception {
+        // 描述线程的任务，返回线程执行返回后的结果。
+        // 需求：求1-n的和返回。
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+        return Thread.currentThread().getName() + "求出了1-" + n + "的和是：" + sum;
+    }
+}
+
+```
+
+````
+pool-1-thread-1求出了1-100的和是：5050
+pool-1-thread-2求出了1-200的和是：20100
+pool-1-thread-3求出了1-300的和是：45150
+pool-1-thread-2求出了1-400的和是：80200
+````
+
+
+
+### 6.5 Executors工具类实现线程池
+
+
+
+Executors
+
+- 是一个线程池的工具类，提供了很多静态方法用于返回不同特点的线程池对象。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.03.14.png?raw=true)
+
+
+
+Executors使用可能存在的陷阱
+
+- 大型并发系统环境中使用Executors，如果不注意可能会出现系统风险。(OOM: out of memory内存溢出)
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.19.39.png?raw=true)
+
+
+
+## 七、并发、并行
+
+
+
+进程
+
+- 正常运行的程序（软件）就是一个独立的进程。
+
+- 线程是属于进程，一个进程中包含多个线程。
+- 进程中的多个线程其实并发和并行同时存在。
+
+
+
+并发
+
+- 进程中的线程由CPU负责调度执行，但是CPU同时处理线程的数量是优先的，为了保证全部线程都能执行到，CPU采用轮询机制为系统的每个线程服务，由于CPU切换的速度很快，给我们的感觉这些线程在同时执行，这就是并发。（简单记：并发就是多条线程交替执行）
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.27.01.png?raw=true" style="zoom:33%;" />
+
+
+
+并行
+
+- 在同一时刻上，同时有多个线程被CPU调度执行。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.30.43.png?raw=true" style="zoom:33%;" />
+
+
+
+多线程到底怎么执行的？
+
+并发和并行同时执行。
+
+e.g. 电脑有16个核心
+
+并发：每16个线程16个线程地切换。
+
+并行：同一时刻有16个线程。
+
+
+
+## 八、线程的生命周期
+
+
+
+人的生命周期（各种状态）
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.34.55.png?raw=true" style="zoom:33%;" />
+
+
+
+线程的生命周期
+
+- 就是线程从生到死的过程中，经历的各种状态及状态切换。
+- 理解线程这些状态有利于提升并发编程的理解能力。
+
+
+
+Java线程的状态
+
+- Java总共定义了6种状态
+- 6种状态都定义在Thread类的内部枚举类种。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.38.40.png?raw=true" style="zoom:33%;" /> 
+
+
+
+线程的6种状态互相转换
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.55.36.png?raw=true)
+
+
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2017.58.35.png?raw=true)
+
+
+
+## 九、乐观锁
+
+
+
+乐观锁机制（CAS算法compare and set比较和修改）
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2021.29.47.png?raw=true" style="zoom:33%;" /> 
+
+
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2021.46.08.png?raw=true)
+
+
+
+乐观锁代码
+
+```java
+package com.itheima.p9_tz;
+
+public class Test2 {
+    public static void main(String[] args) {
+        // 目标：拓展悲观锁，乐观锁原理
+        // 悲观锁：一上来就加锁，没有安全感。每次只能一个线程进入访问完毕后，再解锁。=> 线程安全，性能较差！
+        // 乐观锁：一开始不上锁，认为是没有问题的，等要出现线程安全问题的时候才开始控制。 => 线程安全，性能较好。
+
+        // 需求：1个变量，100个线程，每个线程对其加100次。
+        Runnable target = new MyRunnable2(); // 1个任务
+        for (int i = 1; i <= 100 ; i++) {
+            new Thread(target).start(); // 100个线程执行同一个任务
+        }
+    }
+}
+
+```
+
+```java
+package com.itheima.p9_tz;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class MyRunnable2 implements Runnable{
+    // 整数修改的乐观锁：原子类实现的。
+    private AtomicInteger count = new AtomicInteger();
+
+    @Override
+    public void run() {
+        // 100次
+        for (int i = 0; i < 100; i++) {
+                System.out.println(Thread.currentThread().getName()+"count => "+ count.incrementAndGet());
+
+        }
+
+    }
+}
+
+```
+
+````
+...（输出1-10000，太多了没全copy）
+Thread-53count => 9992
+Thread-53count => 9993
+Thread-53count => 9994
+Thread-53count => 9995
+Thread-53count => 9996
+Thread-53count => 9997
+Thread-53count => 9998
+Thread-53count => 9999
+Thread-53count => 10000
+````
+
+
+
+# D20. 网络通信
+
+## 一、网络编程概述
+
+
+
+什么是网络编程？
+
+- 可以让设备中的程序与网络上其他设备中的应用程序进行数据交互（实现网络通信的）。
+
+
+
+Java提供了哪些网络编程的解决方案？
+
+- Java.net.*包下提供了网络编程的解决方案！
+
+
+
+基本的通信架构
+
+- 通信的基本架构主要有两种形式：一种是CS架构（Client 客户端/Server服务端）、一种是BS架构（Brower 浏览器/Server服务端）。
+
+
+
+- **CS架构的特点：**CS架构需要用户在自己的电脑或者手机上安装客户端软件，然后由客户端软件通过网络连接服务器程序，由服务器把数据发给客户端，客户端就可以在页面上看到各种数据了。e.g. 微信, intelliJ
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.00.57.png?raw=true" style="zoom:33%;" />
+
+
+
+**BS架构的特点：**BS架构不需要开发客户端软件，用户只需要通过浏览器输入网址就可以直接从服务器获取数据，并由服务器将数据返回给浏览器，用户在页面上就可以看到各种数据了。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.03.37.png?raw=true" style="zoom:33%;" />
+
+
+
+## 二、网络通信三要素
+
+
+
+网络通信的关键三要素
+
+- 分别是IP地址、端口号、通信协议
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.07.32.png?raw=true" style="zoom:33%;" />
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.08.35.png?raw=true" style="zoom:33%;" />
+
+
+
+### 2.1 IP地址
+
+
+
+IP地址
+
+- IP（Ineternet Protocol）：全称互联网协议地址，是分配给网络设备的唯一表示。
+- IP地址分为：IPV4地址、IPV6地址
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.12.30.png?raw=true" style="zoom:33%;" /> 
+
+IPv6
+
+- IPv6：128位二进制数据来表示（16个字节），号称可以为地球上的每一粒沙子编一个IP地址。
+- IPv6分成8段表示，每段每四位编码成一个十六进制位表示，数之间用冒号（：）分开。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.16.44.png?raw=true" style="zoom:33%;" /> 
+
+
+
+IP域名
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.19.20.png?raw=true" style="zoom:33%;" /> 
+
+
+
+公网IP，内网IP
+
+- 公网IP：是可以连接互联网的IP地址；
+- 内网IP：也叫局域网IP，只能组织机构内部使用。
+- 192.168.开头的就是常见的局域网地址，范围即为192.168.0.0--192.168.255.255，专门为组织机构内部使用。
+
+
+
+特殊IP地址
+
+- 127.0.0.1、localhost：代表本机IP，只会寻找当前所在主机。
+
+
+
+IP常用命令：
+
+- Ipconfig:查看本机IP地址。
+- ping IP地址：检查网络是否连通。
+
+
+
+### 2.2 InetAddress
+
+- 代表IP地址的类。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.27.28.png?raw=true)
+
+
+
+InetAddress方法介绍代码
+
+```java
+package com.itheima.p1_ip;
+
+import java.net.InetAddress;
+
+/**
+ * 目标：掌握InetAddress类的使用。
+ */
+public class InetAddressTest {
+    public static void main(String[] args) throws Exception {
+        // 1、获取本机IP地址对象的
+        InetAddress ip1 = InetAddress.getLocalHost();
+        System.out.println(ip1.getHostName());
+        System.out.println(ip1.getHostAddress());
+
+        // 2、获取指定IP或者域名的IP地址对象。
+        InetAddress ip2 = InetAddress.getByName("www.baidu.com");
+        System.out.println(ip2.getHostName());
+        System.out.println(ip2.getHostAddress());
+
+        // ping www.baidu.com
+        System.out.println(ip2.isReachable(60000));
+    }
+}
+
+```
+
+```
+appledeMacBook-Pro.local
+172.23.44.117
+www.baidu.com
+103.235.46.40
+false
+```
+
+
+
+### 2.3 端口号
+
+
+
+端口
+
+- 指的是计算机设备上运行的应用程序的标识，被规定为一个16位的二进制数据，范围（0~65535）。
+
+
+
+分类
+
+- 周知端口：0~1023，被预先定义的知名应用程序占用（如：HTTP占用80，FTP占用21）
+- 注册端口：1024~49151，分配给用户经常或者某些应用程序
+- 动态端口：49152~65536，之所以称为动态端口，是因为它一般不固定分配给某进程，而是动态分配的。
+
+注意：我们自己开发的程序一般选择使用注册端口，且一个设备中不能出现两个程序的端口号一样，否则出错。
+
+
+
+### 2.4 协议
+
+
+
+通信协议
+
+- 网络上通信的设备，事先规定的连接规则，以及传输数据的规则被称为网络通信协议。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2022.46.54.png?raw=true)
+
+
+
+传输层的2个通信协议
+
+- UDP（User Datagram Protocol）:用户数据报协议
+- TCP（Transmission Control Protocol）：传输控制协议
+
+
+
+UDP协议（通信效率高！语音通话、视频直播）
+
+- 特点：无连接、不可靠通信。
+- 不实现建立连接，数据按照包发，一包数据包含：自己的IP，程序端口，目的地IP，程序端口和数据（限制在64KB内）等。
+- 发送方不管对方是否在线，数据在中间丢失也不管，如果接收方收到数据也不返回确认，所以不可靠。
+
+
+
+TCP协议
+
+- 特点：面向连接、可靠通信。
+- TCP的最终目的：要保证在不可靠的信道上实现可靠的传输。
+- TCP主要有三个步骤实现可靠传输：三次握手建立连接，传输数据进行确认，四次挥手断开连接。
+
+
+
+TCP三次握手建立可靠连接
+
+- 如下图所示：目的是确认通信双方，收发消息都是正常没问题的。
+- 传输数据会进行确认，以保证数据传输的可靠性。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2023.00.20.png?raw=true" style="zoom:33%;" />
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2023.01.12.png?raw=true" style="zoom:33%;" />
+
+
+
+TCP：四次挥手断开连接
+
+- 目的：确保双方数据的收发都已经完成。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2023.05.48.png?raw=true" style="zoom:33%;" />
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-06%2023.06.50.png?raw=true" style="zoom:33%;" />
+
+
+
+## 三、UDP通信-一发一收
+
+
+
+UDP通信
+
+- 特点：无连接、不可靠通信。
+- 不事先建立连接；发送端每次把要发送的数据（限制在64KB内）、接收端IP、等信息封装成一个数据包，发出去就不管了。
+- Java提供了一个类叫DatagramSocket来完成基于UDP协议的收发数据。
+
+
+
+具体流程如下图所示：假设我们把DatagramSocket看做是街道两天的人，现在左边的人要扔一盘韭菜到右边，这里的韭菜就是数据，但是数据需要用一个盘子装起来，这里的盘子就是DatagramPacket数据包的意思。通信双方都需要有DatagramSocket(扔、接韭菜人)，还需要有DatagramPacket(装韭菜的盘子)
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2012.58.32.png?raw=true" style="zoom:33%;" />
+
+
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2013.01.57.png?raw=true)
+
+
+
+案例：UDP通信实现：发送消息、接收消息
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2013.35.32.png?raw=true" style="zoom:33%;" /> 
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2013.35.54.png?raw=true" style="zoom:33%;" />
+
+
+
+```java
+package com.itheima.p2_udp1;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+
+/**
+ * 目标：完成UDP通信快速入门：实现1发1收。
+ */
+public class Client {
+    public static void main(String[] args) throws Exception {
+        // 1、创建客户端对象（发韭菜出去的人）
+        DatagramSocket socket = new DatagramSocket(7777);
+
+        // 2、创建数据包对象封装要发出去的数据（创建一个韭菜盘子）
+       /* public DatagramPacket(byte buf[], int length,
+             InetAddress address, int port)
+               参数一：封装要发出去的数据。
+               参数二：发送出去的数据大小（字节个数）
+               参数三：服务端的IP地址（找到服务端主机）
+               参数四：服务端程序的端口。
+             */
+        byte[] bytes = "我是快乐的客户端，我爱你abc".getBytes();
+        DatagramPacket packet = new DatagramPacket(bytes, bytes.length
+                , InetAddress.getLocalHost(),  6666);
+
+        // 3、开始正式发送这个数据包的数据出去了
+        socket.send(packet);
+
+        System.out.println("客户端数据发送完毕~~~");
+        socket.close(); // 释放资源！cuz会占用网卡资源
+    }
+}
+
+```
+
+```java
+package com.itheima.p2_udp1;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+/**
+ * 目标：完成UDP通信快速入门-服务端开发
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("----服务端启动----");
+        // 1、创建一个服务端对象（创建一个接韭菜的人） 注册端口
+        DatagramSocket socket = new DatagramSocket(6666);
+
+        // 2、创建一个数据包对象，用于接收数据的（创建一个韭菜盘子）
+        byte[] buffer = new byte[1024 * 64]; // 64KB. 1KB不一定够，64KB是一包UDP数据的最大值，这个字节数组肯定够了
+        DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
+
+        // 3、开始正式使用数据包来接收客户端发来的数据
+        socket.receive(packet);
+
+        // 4、从字节数组中，把接收到的数据直接打印出来
+        // 接收多少就倒出多少（cuz发来的数据不一定能装满64KB）
+        // 获取本次数据包接收了多少数据。
+        int len = packet.getLength();
+
+        String rs = new String(buffer, 0 , len);
+        System.out.println(rs);
+
+        System.out.println(packet.getAddress().getHostAddress());
+        System.out.println(packet.getPort());
+
+        socket.close(); // 释放资源
+    }
+}
+
+```
+
+````服务端
+----服务端启动----
+我是快乐的客户端，我爱你abc
+172.23.44.117
+7777
+````
+
+````客户端
+客户端数据发送完毕~~~
+````
+
+
+
+## 四、UDP通信-多发多收
+
+刚才的案例，我们只能客户端发一次，服务端接收一次就结束了。下面我们想把这个代码改进一下，
+
+需求：实现客户端不断的发数据，而服务端能不断的接收数据，客户端发送exit时客户端程序退出。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2014.11.10.png?raw=true" style="zoom:33%;" />
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2014.11.41.png?raw=true" style="zoom:33%;" />
+
+
+
+
+
+4.1 客户端程序
+
+```java
+package com.itheima.p3_udp2;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.util.Scanner;
+
+/**
+ * 目标：完成UDP通信快速入门：实现客户端反复的发。
+ */
+public class Client {
+    public static void main(String[] args) throws Exception {
+        // 1、创建客户端对象（发韭菜出去的人）
+        DatagramSocket socket = new DatagramSocket();
+
+        // 2、创建数据包对象封装要发出去的数据（创建一个韭菜盘子）
+       /* public DatagramPacket(byte buf[], int length,
+             InetAddress address, int port)
+               参数一：封装要发出去的数据。
+               参数二：发送出去的数据大小（字节个数）
+               参数三：服务端的IP地址（找到服务端主机）
+               参数四：服务端程序的端口。
+             */
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("请说：");
+            String msg = sc.nextLine();
+
+            // 一旦发现用户输入的exit命令，就退出客户端
+            if("exit".equals(msg)){
+                System.out.println("欢迎下次光临！退出成功！");
+                socket.close(); // 释放资源
+                break; // 跳出死循环
+            }
+
+            byte[] bytes = msg.getBytes();
+            DatagramPacket packet = new DatagramPacket(bytes, bytes.length
+                    , InetAddress.getLocalHost(),  6666);
+
+            // 3、开始正式发送这个数据包的数据出去了
+            socket.send(packet);
+        }
+    }
+}
+
+```
+
+
+
+4.2 服务端程序
+
+```java
+
+package com.itheima.p3_udp2;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+/**
+ * 目标：完成UDP通信快速入门-服务端反复的收
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("----服务端启动----");
+        // 1、创建一个服务端对象（创建一个接韭菜的人） 注册端口
+        DatagramSocket socket = new DatagramSocket(6666);
+
+        // 2、创建一个数据包对象，用于接收数据的（创建一个韭菜盘子）
+        byte[] buffer = new byte[1024 * 64]; // 64KB.
+        DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
+
+        while (true) {
+            // 3、开始正式使用数据包来接收客户端发来的数据
+            socket.receive(packet);
+
+            // 4、从字节数组中，把接收到的数据直接打印出来
+            // 接收多少就倒出多少
+            // 获取本次数据包接收了多少数据。
+            int len = packet.getLength();
+
+            String rs = new String(buffer, 0 , len);
+            System.out.println(rs);
+
+            System.out.println(packet.getAddress().getHostAddress());
+            System.out.println(packet.getPort());
+            System.out.println("--------------------------------------");
+        }
+    }
+}
+
+```
+
+````Client1
+请说：
+我是张三
+请说：
+exit
+欢迎下次光临！退出成功！
+````
+
+```Client2
+请说：
+我是李四
+请说：
+exit
+欢迎下次光临！退出成功！
+```
+
+```Server
+----服务端启动----
+我是张三
+172.23.44.117
+56159
+--------------------------------------
+我是李四
+172.23.44.117
+49723
+--------------------------------------
+```
+
+
+
+## 五、TCP通信-一发一收
+
+
+
+TCP通信
+
+- 特点：面向连接、可靠通信。
+- 通信双方事先会采用“三次握手”方式建立可靠连接，实现端到端的通信；底层能保证数据成功传给客户端。
+- Java提供了一个java.net.Socket类来完成TCP通信。
+
+
+
+我们先讲一下Socket完成TCP通信的流程，再讲代码怎么编写就很好理解了。如下图所示
+
+1. 当创建Socket对象时，就会在客户端和服务端创建一个数据通信的管道，在客户端和服务端两边都会有一个Socket对象来访问这个通信管道。
+2. 现在假设客户端要发送一个“在一起”给服务端，客户端这边先需要通过Socket对象获取到一个字节输出流，通过字节输出流写数据到服务端
+3. 然后服务端这边通过Socket对象可以获取字节输入流，通过字节输入流就可以读取客户端写过来的数据，并对数据进行处理。
+4. 服务端处理完数据之后，假设需要把“没感觉”发给客户端端，那么服务端这边再通过Socket获取到一个字节输出流，将数据写给客户端
+5. 客户端这边再获取输入流，通过字节输入流来读取服务端写过来的数据。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2014.20.37.png?raw=true)
+
+ 
+
+5.1 TCP客户端
+
+- 客户端程序就是通过java.net包下的Socket类来实现的。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2014.27.17.png?raw=true)
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2014.39.22.png?raw=true" style="zoom:33%;" /> 
+
+
+
+```java
+package com.itheima.p4_tcp1;
+
+import java.io.DataOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+
+/**
+ *  目标：完成TCP通信快速入门-客户端开发：实现1发1收。
+ */
+public class Client {
+    public static void main(String[] args) throws Exception {
+        // 1、创建Socket对象，并同时请求与服务端程序的连接。
+        Socket socket = new Socket("127.0.0.1", 8888);
+
+        // 2、从socket通信管道中得到一个字节输出流，用来发数据给服务端程序。
+        OutputStream os = socket.getOutputStream();
+
+        // 3、把低级的字节输出流包装成数据输出流.由于原始的字节流不是很好用，这里根据我的经验，我原始的OutputStream包装为DataOutputStream是比较好用的。
+        DataOutputStream dos = new DataOutputStream(os);
+
+        // 4、开始写数据出去了
+        dos.writeUTF("在一起，好吗？");
+        dos.close(); //cuz dos包括了字节输出流os，所以只关dos就ok
+
+        socket.close(); // 释放连接资源
+    }
+}
+
+```
+
+
+
+5.2 TCP服务端
+
+- 服务端是通过java.net包下的ServerSocket类来实现的。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2014.44.16.png?raw=true" style="zoom:33%;" /> 
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2015.02.48.png?raw=true" style="zoom:33%;" /> 
+
+
+
+```java
+package com.itheima.p4_tcp1;
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ *  目标：完成TCP通信快速入门-服务端开发：实现1发1收。
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("-----服务端启动成功-------");
+        // 1、创建ServerSocket的对象，同时为服务端注册端口。
+        ServerSocket serverSocket = new ServerSocket(8888);
+
+        // 2、使用serverSocket对象，调用一个accept方法，等待客户端的连接请求
+        Socket socket = serverSocket.accept();
+
+        // 3、从socket通信管道中得到一个字节输入流。
+        InputStream is = socket.getInputStream();
+
+        // 4、把原始的字节输入流包装成数据输入流
+        DataInputStream dis = new DataInputStream(is);
+
+        // 5、使用数据输入流读取客户端发送过来的消息
+        String rs = dis.readUTF(); // 要和输出的writeUTF对应，通信要求高
+        System.out.println(rs);
+        // 其实我们也可以获取客户端的IP地址
+        System.out.println(socket.getRemoteSocketAddress());
+
+        dis.close();
+        socket.close();
+    }
+}
+
+```
+
+````
+-----服务端启动成功-------
+在一起，好吗？
+/127.0.0.1:51471
+````
+
+
+
+## 六、TCP通信-多发多收
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2015.26.20.png?raw=true" style="zoom:33%;" />
+
+
+
+6.1 TCP客户端
+
+下面我们把客户端代码改写一下，采用键盘录入的方式发消息，为了让客户端能够一直发，我们只需要将发送消息的代码套一层循环就可以了，当用户输入exit时，客户端退出循环并结束客户端。
+
+```java
+package com.itheima.p5_tcp2;
+
+import java.io.DataOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.Scanner;
+
+/**
+ *  目标：完成TCP通信快速入门-客户端开发：实现客户端可以反复的发消息出去
+ */
+public class Client {
+    public static void main(String[] args) throws Exception {
+        // 1、创建Socket对象，并同时请求与服务端程序的连接。
+        Socket socket = new Socket("127.0.0.1", 8888);
+
+        // 2、从socket通信管道中得到一个字节输出流，用来发数据给服务端程序。
+        OutputStream os = socket.getOutputStream();
+
+        // 3、把低级的字节输出流包装成数据输出流
+        DataOutputStream dos = new DataOutputStream(os);
+
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("请说：");
+            String msg = sc.nextLine();
+
+            // 一旦用户输入了exit，就退出客户端程序
+            if("exit".equals(msg)){
+                System.out.println("欢迎您下次光临！退出成功！");
+                dos.close();
+                socket.close();
+                break;
+            }
+
+            // 4、开始写数据出去了
+            dos.writeUTF(msg);
+            dos.flush(); //刷出去 cuz防止在内存中待着（close时候会自动刷）
+        }
+    }
+}
+
+```
+
+
+
+6.2 TCP服务端
+
+为了让服务端能够一直接收客户端发过来的消息，服务端代码也得改写一下。我们只需要将读取数据的代码加一个循环就可以了。
+
+但是需要我们注意的时，如果客户端Socket退出之后，就表示连接客户端与服务端的数据通道被关闭了，这时服务端就会出现异常。服务端可以通过出异常来判断客户端下线了，所以可以用try...catch把读取客户端数据的代码套一起来，catch捕获到异常后，打印客户端下线。
+
+```java
+package com.itheima.p5_tcp2;
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ *  目标：完成TCP通信快速入门-服务端开发：实现服务端反复发消息
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("-----服务端启动成功-------");
+        // 1、创建ServerSocket的对象，同时为服务端注册端口。
+        ServerSocket serverSocket = new ServerSocket(8888);
+
+        // 2、使用serverSocket对象，调用一个accept方法，等待客户端的连接请求
+        Socket socket = serverSocket.accept();
+
+        // 3、从socket通信管道中得到一个字节输入流。
+        InputStream is = socket.getInputStream();
+
+        // 4、把原始的字节输入流包装成数据输入流
+        DataInputStream dis = new DataInputStream(is);
+
+        while (true) {
+            try {
+                // 5、使用数据输入流读取客户端发送过来的消息
+                String rs = dis.readUTF(); // 服务端在这里等客户端消息，一旦客户端端口离线，这里殉情报错
+                System.out.println(rs);
+            } catch (Exception e) {
+                System.out.println(socket.getRemoteSocketAddress() + "离线了！");
+                dis.close();
+                socket.close();
+                break;
+            }
+        }
+    }
+}
+```
+
+
+
+## 七、TCP通信-支持与多个客户端同时通信
+
+上一个案例中我们写的服务端程序只能和一个客户端通信，如果有多个客户端连接服务端，此时服务端是不支持的。
+
+为了让服务端能够支持多个客户端通信，就需要用到多线程技术。具体的实现思路如下图所示：每当有一个客户端连接服务端，在服务端这边就为Socket开启一条线程取执行读取数据的操作，来多少个客户端，就有多少条线程。按照这样的设计，服务端就可以支持多个客户端连接了。(e.g. 老板门口接待客人，把每波客人交给一个服务员)
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2015.40.52.png?raw=true" style="zoom:33%;" />
+
+
+
+### 7.1 多线程改进
+
+客户端
+
+```java
+package com.itheima.p6_tcp3;
+
+import java.io.DataOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.Scanner;
+
+/**
+ *  目标：完成TCP通信快速入门-客户端开发：实现客户端可以反复的发消息出去
+ */
+public class Client {
+    public static void main(String[] args) throws Exception {
+        // 1、创建Socket对象，并同时请求与服务端程序的连接。
+        Socket socket = new Socket("127.0.0.1", 8888);
+        // 2、从socket通信管道中得到一个字节输出流，用来发数据给服务端程序。
+        OutputStream os = socket.getOutputStream();
+        // 3、把低级的字节输出流包装成数据输出流
+        DataOutputStream dos = new DataOutputStream(os);
+
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("请说：");
+            String msg = sc.nextLine();
+
+            // 一旦用户输入了exit，就退出客户端程序
+            if("exit".equals(msg)){
+                System.out.println("欢迎您下次光临！退出成功！");
+                dos.close();
+                socket.close();
+                break;
+            }
+            // 4、开始写数据出去了
+            dos.writeUTF(msg);
+            dos.flush();
+        }
+    }
+}
+
+```
+
+服务端的主程序代码，如下：
+
+```java
+package com.itheima.p6_tcp3;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ *  目标：完成TCP通信快速入门-服务端开发：要求实现与多个客户端同时通信。
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("-----服务端启动成功-------");
+        // 1、创建ServerSocket的对象，同时为服务端注册端口。
+        ServerSocket serverSocket = new ServerSocket(8888);
+
+        while (true) {
+            // 2、使用serverSocket对象，调用一个accept方法，等待客户端的连接请求
+            Socket socket = serverSocket.accept();
+
+            System.out.println("有人上线了：" + socket.getRemoteSocketAddress());
+
+            // 3、把这个客户端对应的socket通信管道，交给一个独立的线程负责处理。
+            new ServerReaderThread(socket).start();
+        }
+    }
+}
+
+
+```
+
+
+
+我们需要写一个服务端的读取数据的线程类，代码如下
+
+```java
+package com.itheima.p6_tcp3;
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.net.Socket;
+
+public class ServerReaderThread extends Thread{
+    private Socket socket;
+    public ServerReaderThread(Socket socket){
+        this.socket = socket;
+    }
+    @Override
+    public void run() {
+        try {
+            InputStream is = socket.getInputStream();
+            DataInputStream dis = new DataInputStream(is);
+            while (true){
+                try {
+                    String msg = dis.readUTF(); //对应的客户端如果离线，会出异常=>所以trycatch
+                    System.out.println(msg);
+
+                } catch (Exception e) {
+                    System.out.println("有人下线了：" + socket.getRemoteSocketAddress());
+                    dis.close();
+                    socket.close();
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+```
+-----服务端启动成功-------
+有人上线了：/127.0.0.1:57924
+有人上线了：/127.0.0.1:57933
+111
+2222
+有人下线了：/127.0.0.1:57924
+有人下线了：/127.0.0.1:57933
+```
+
+````
+请说：
+111
+请说：
+exit
+欢迎您下次光临！退出成功！
+````
+
+````
+请说：
+2222
+请说：
+exit
+欢迎您下次光临！退出成功！
+````
+
+
+
+## 八、TCP通信-综合案例
+
+### 8.1 群聊
+
+
+
+TCP通信-端口转发
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2016.12.35.png?raw=true" style="zoom:33%;" />
+
+Client
+
+```java
+package com.itheima.p7_tcp4;
+
+import java.io.DataOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.Scanner;
+
+/**
+ *  目标：完成TCP通信快速入门-客户端开发：实现客户端可以反复的发消息出去
+ */
+public class Client {
+    public static void main(String[] args) throws Exception {
+        // 1、创建Socket对象，并同时请求与服务端程序的连接。
+        Socket socket = new Socket("127.0.0.1", 8888);
+
+        // 创建一个独立的线程，负责随时从socket中接收服务端发送过来的消息。
+        new ClientReaderThread(socket).start();
+
+        // 2、从socket通信管道中得到一个字节输出流，用来发数据给服务端程序。
+        OutputStream os = socket.getOutputStream();
+        // 3、把低级的字节输出流包装成数据输出流
+        DataOutputStream dos = new DataOutputStream(os);
+
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("请说：");
+            String msg = sc.nextLine();
+
+            // 一旦用户输入了exit，就退出客户端程序
+            if("exit".equals(msg)){
+                System.out.println("欢迎您下次光临！退出成功！");
+                dos.close();
+                socket.close();
+                break;
+            }
+            // 4、开始写数据出去了
+            dos.writeUTF(msg);
+            dos.flush();
+        }
+    }
+}
+
+```
+
+
+
+ClientReaderThread
+
+```java
+package com.itheima.p7_tcp4;
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.net.Socket;
+
+public class ClientReaderThread extends Thread{
+    private Socket socket;
+    public ClientReaderThread(Socket socket){
+        this.socket = socket;
+    }
+    @Override
+    public void run() {
+        try {
+            InputStream is = socket.getInputStream();
+            DataInputStream dis = new DataInputStream(is);
+            while (true){
+                try {
+                    String msg = dis.readUTF();
+                    System.out.println(msg);
+                } catch (Exception e) {
+                    System.out.println("自己下线了：" + socket.getRemoteSocketAddress());
+                    dis.close();
+                    socket.close();
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+
+
+Server
+
+```java
+package com.itheima.p7_tcp4;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *  目标：完成TCP通信快速入门-服务端开发：要求实现与多个客户端同时通信。
+ */
+public class Server {
+    public static List<Socket> onLineSockets = new ArrayList<>();
+    public static void main(String[] args) throws Exception {
+        System.out.println("-----服务端启动成功-------");
+        // 1、创建ServerSocket的对象，同时为服务端注册端口。
+        ServerSocket serverSocket = new ServerSocket(8888);
+
+        while (true) {
+            // 2、使用serverSocket对象，调用一个accept方法，等待客户端的连接请求
+            Socket socket = serverSocket.accept();
+            onLineSockets.add(socket);
+            System.out.println("有人上线了：" + socket.getRemoteSocketAddress());
+            // 3、把这个客户端对应的socket通信管道，交给一个独立的线程负责处理。
+            new ServerReaderThread(socket).start();
+        }
+    }
+}
+
+```
+
+
+
+ServerReaderThread
+
+```java
+package com.itheima.p7_tcp4;
+
+import java.io.*;
+import java.net.Socket;
+
+public class ServerReaderThread extends Thread{
+    private Socket socket;
+    public ServerReaderThread(Socket socket){
+        this.socket = socket;
+    }
+    @Override
+    public void run() {
+        try {
+            InputStream is = socket.getInputStream();
+            DataInputStream dis = new DataInputStream(is);
+            while (true){
+                try {
+                    String msg = dis.readUTF();
+                    System.out.println(msg);
+                    // 把这个消息分发给全部客户端进行接收。
+                    sendMsgToAll(msg);
+                } catch (Exception e) {
+                    System.out.println("有人下线了：" + socket.getRemoteSocketAddress());
+                    com.itheima.p7_tcp4.Server.onLineSockets.remove(socket);
+                    dis.close();
+                    socket.close();
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void sendMsgToAll(String msg) throws IOException {
+        // 发送给全部在线的socket管道接收。
+        for (Socket onLineSocket : com.itheima.p7_tcp4.Server.onLineSockets) {
+            OutputStream os = onLineSocket.getOutputStream();
+            DataOutputStream dos = new DataOutputStream(os);
+            dos.writeUTF(msg);
+            dos.flush();
+        }
+    }
+}
+
+```
+
+
+
+Output
+
+
+
+Server
+
+```
+-----服务端启动成功-------
+有人上线了：/127.0.0.1:62970
+有人上线了：/127.0.0.1:62979
+有人上线了：/127.0.0.1:62986
+111
+222
+333
+有人下线了：/127.0.0.1:62970
+有人走了
+```
+
+
+
+Client1
+
+```
+请说：
+111
+请说：
+111
+222
+333
+exit
+欢迎您下次光临！退出成功！
+自己下线了：/127.0.0.1:8888
+```
+
+
+
+Client2
+
+```
+请说：
+111
+222
+请说：
+222
+333
+有人走了
+请说：
+有人走了
+```
+
+
+
+Client3
+
+```
+请说：
+111
+222
+333
+请说：
+333
+有人走了
+```
+
+
+
+### 8.2 BS架构
+
+
+
+BS架构的基本原理
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2016.58.06.png?raw=true" style="zoom:33%;" />
+
+
+
+在BS结构的程序中，浏览器和服务器通信是基于HTTP协议来完成的，浏览器给客户端发送数据需要按照HTTP协议规定好的数据格式发给服务端，服务端返回数据时也需要按照HTTP协议规定好的数据给是发给浏览器，只有这两双方才能完成一次数据交互。
+
+- 服务端给客户端响应数据的数据格式（HTTP协议规定数据格式）如下图所示：左图是数据格式，右图是示例。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2017.01.12.png?raw=true" style="zoom:50%;" />
+
+
+
+
+
+案例需求：
+
+要求从浏览器中访问服务器，并立即让服务器响应一个很简单的网页给浏览器展示，网页内容就是“黑马程序员666”
+
+
+
+#### 8.2.1 服务端程序
+
+服务端的主程序
+
+````java
+package com.itheima.p8_tcp5;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ *  目标：完成TCP通信快速入门-服务端开发：要求实现与多个客户端同时通信。
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("-----服务端启动成功-------");
+        // 1、创建ServerSocket的对象，同时为服务端注册端口。
+        ServerSocket serverSocket = new ServerSocket(8080);
+
+        while (true) {
+            // 2、使用serverSocket对象，调用一个accept方法，等待客户端的连接请求
+            Socket socket = serverSocket.accept();
+
+            System.out.println("有人上线了：" + socket.getRemoteSocketAddress());
+
+            // 3、把这个客户端对应的socket通信管道，交给一个独立的线程负责处理。
+            new ServerReaderThread(socket).start();
+        }
+    }
+}
+
+````
+
+
+
+一个线程类，用于按照HTTP协议的格式返回数据
+
+```java
+package com.itheima.p8_tcp5;
+
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.net.Socket;
+
+public class ServerReaderThread extends Thread{
+    private Socket socket;
+    public ServerReaderThread(Socket socket){
+        this.socket = socket;
+    }
+    @Override
+    public void run() {
+        //  立即响应一个网页内容：“黑马程序员”给浏览器展示。
+        try {
+            OutputStream os = socket.getOutputStream();
+            PrintStream ps = new PrintStream(os); // 用打印流容易换行
+            ps.println("HTTP/1.1 200 OK");
+            ps.println("Content-Type:text/html;charset=UTF-8");
+            ps.println(); // 必须换行
+            ps.println("<div style='color:red;font-size:120px;text-align:center'>黑马程序员666<div>");
+            ps.close();
+            socket.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+
+
+#### 8.2.2 服务端主程序用线程池改进
+
+为了避免服务端创建太多的线程，可以把服务端用线程池改进，提高服务端的性能。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2017.13.18.png?raw=true" style="zoom:33%;" />
+
+
+
+
+
+改写服务端的主程序，使用ThreadPoolExecutor创建一个线程池，每次接收到一个Socket就往线程池中提交任务就行。
+
+````java
+package com.itheima.p9_tcp6;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+/**
+ *  目标：完成TCP通信快速入门-服务端开发：要求实现与多个客户端同时通信。
+ */
+public class Server {
+    public static void main(String[] args) throws Exception {
+        System.out.println("-----服务端启动成功-------");
+        // 1、创建ServerSocket的对象，同时为服务端注册端口。
+        ServerSocket serverSocket = new ServerSocket(8080);
+
+        // 创建出一个线程池，负责处理通信管道的任务。
+        ThreadPoolExecutor pool = new ThreadPoolExecutor(16 * 2, 16 * 2, 0, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(8) , Executors.defaultThreadFactory(),
+                new ThreadPoolExecutor.AbortPolicy());
+
+        while (true) {
+            // 2、使用serverSocket对象，调用一个accept方法，等待客户端的连接请求
+            Socket socket = serverSocket.accept();
+
+            // 3、把这个客户端对应的socket通信管道，交给一个独立的线程负责处理。
+            pool.execute(new ServerReaderRunnable(socket));
+        }
+    }
+}
+````
+
+
+
+写一个给浏览器响应数据的线程任务
+
+```java
+package com.itheima.p9_tcp6;
+
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.net.Socket;
+
+public class ServerReaderRunnable implements Runnable{
+    private Socket socket;
+    public ServerReaderRunnable(Socket socket){
+        this.socket = socket;
+    }
+    @Override
+    public void run() {
+        //  立即响应一个网页内容：“黑马程序员”给浏览器展示。
+        try {
+            OutputStream os = socket.getOutputStream();
+            PrintStream ps = new PrintStream(os);
+            ps.println("HTTP/1.1 200 OK");
+            ps.println("Content-Type:text/html;charset=UTF-8");
+            ps.println(); // 必须换行
+            ps.println("<div style='color:red;font-size:120px;text-align:center'>黑马程序员666<div>");
+            ps.close();
+            socket.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2017.27.45.png?raw=true)
+
+
+
+# D21. Java高级
+
+## 一、单元测试
+
+
+
+### 1.1 单元测试快速入门
+
+
+
+单元测试
+
+- 就是针对最小的功能单元（方法），编写测试代码对其进行正确性测试。
+
+
+
+咱们之前是怎么进行测试的呢？有啥问题？
+
+比如说我们写了一个学生管理系统，有添加学生、修改学生、删除学生、查询学生等这些功能。要对这些功能这几个功能进行测试，我们是在main方法中编写代码来测试的。
+
+但是在main方法中写测试代码有如下的几个问题，如下图所示：
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2017.42.23.png?raw=true)
+
+
+
+Junit单元测试框架
+
+- Junit是第三方公司开源出来的，用于对代码进行单元测试的工具（IDEA已经集成了junit框架）
+
+相比于在main方法中测试有如下几个优点
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2017.45.50.png?raw=true)
+
+案例
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2017.47.11.png?raw=true" style="zoom:33%;" />
+
+
+
+先准备一个类，假设写了一个StringUtil工具类，代码如下
+
+```java
+package com.itheima.p1_junit;
+/**
+ * 字符串工具类
+ */
+public class StringUtil {
+    public static void printNumber(String name){
+        if(name == null){
+            System.out.println(0);
+            return; // 停掉方法
+        }
+        System.out.println("名字长度是：" + name.length());
+    }
+
+    /**
+     * 求字符串的最大索引
+     */
+    public static int getMaxIndex(String data){
+        if(data == null) {
+            return -1;
+        }
+        return data.length();
+    }
+
+
+}
+```
+
+
+
+接下来，写一个测试类，测试StringUtil工具类中的方法能否正常使用。
+
+```java
+package com.itheima.p1_junit;
+
+import org.junit.*;
+
+/**
+ * 测试类
+ */
+public class StringUtilTest {
+    @Before
+    public void test1(){
+        System.out.println("---> test1 Before 执行了---------");
+    }
+
+    @BeforeClass
+    public static void test11(){
+        System.out.println("---> test11 BeforeClass 执行了---------");
+    }
+
+    @After
+    public void test2(){
+        System.out.println("---> test2 After 执行了---------");
+    }
+
+    @AfterClass
+    public static void test22(){
+        System.out.println("---> test22 AfterClass 执行了---------");
+    }
+
+    @Test // 测试方法
+    public void testPrintNumber(){
+        StringUtil.printNumber("admin");
+        StringUtil.printNumber(null);
+    }
+
+    @Test // 测试方法
+    public void testGetMaxIndex(){
+        int index1 = StringUtil.getMaxIndex(null);
+        System.out.println(index1);
+
+        int index2 = StringUtil.getMaxIndex("admin");
+        System.out.println(index2);
+
+        // 断言机制assert：程序员可以通过预测业务方法的结果。
+        Assert.assertEquals("方法内部有bug!", 4, index2);
+    }
+}
+
+```
+
+
+
+````
+---> test11 BeforeClass 执行了---------
+---> test1 Before 执行了---------
+名字长度是：5
+0
+---> test2 After 执行了---------
+---> test1 Before 执行了---------
+-1
+5
+---> test2 After 执行了---------
+
+java.lang.AssertionError: 方法内部有bug! 
+Expected :4
+Actual   :5
+<Click to see difference>
+
+---> test22 AfterClass 执行了---------
+````
+
+
+
+### 1.2 Junit框架的常用注解
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2018.37.05.png?raw=true" style="zoom:33%;" />
+
+​	例子代码看上面1.1的
+
+
+
+我们现在已经知道每一个注解的作用了，那他们有什么用呢？应用场景在哪里?
+
+我们来看一个例子，假设我想在每个测试方法中使用Socket对象，并且用完之后，需要把Socket关闭。代码就可以按照下面的结构来设计
+
+```java
+public class StringUtilTest{
+    private static Socket socket;
+    @Before
+    public void test1(){
+        System.out.println("--> test1 Before 执行了");
+    }
+    @BeforeClass
+    public static void test11(){
+        System.out.println("--> test11 BeforeClass 执行了");
+        //初始化Socket对象
+        socket = new Socket();
+    }
+    @After
+    public void test2(){
+        System.out.println("--> test2 After 执行了");
+    }
+    @AfterCalss
+    public static void test22(){
+        System.out.println("--> test22 AfterCalss 执行了");
+         //关闭Socket
+        socket.close();
+    }
+}
+```
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2020.52.44.png?raw=true" style="zoom:33%;" />
+
+
+
+## 二、反射
+
+
+
+反射（reflection）
+
+- 反射就是：指的是加载类的字节码到内存，并以编程的方法解刨出类中的各个成分（成员变量、方法、构造器等）。
+
+
+
+
+
+反射有啥用呢？其实反射是用来写框架用的，但是现阶段同学们对框架还没有太多感觉。为了方便理解，我给同学们看一个我们见过的例子：平时我们用IDEA开发程序时，用对象调用方法，IDEA会有代码提示，idea会将这个对象能调用的方法都给你列举出来，供你选择，如果下图所示
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2020.57.23.png?raw=true)
+
+
+
+因为反射获取的是类的信息，那么反射的第一步首先获取到类才行。由于Java的设计原则是万物皆对象，获取到的类其实也是以对象的形式体现的，**叫字节码对象**，用Class类来表示。获取到字节码对象之后，再通过字节码对象就可以获取到类的组成成分了，这些组成成分其实也是对象，其中**每一个成员变量用Field类的对象来表示**、**每一个成员方法用Method类的对象来表示**，**每一个构造器用Constructor类的对象来表示**。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2021.00.29.png?raw=true)
+
+
+
+### 2.1 获取类的字节码
+
+
+
+反射的第一步：是将字节码加载到内存，我们需要获取到的字节码对象。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2021.03.27.png?raw=true)
+
+
+
+获取Class对象的三种方式代码
+
+```java
+package com.itheima.p2_reflect;
+
+/**
+ * 目标：获取Class对象。
+ */
+public class Test1Class {
+    public static void main(String[] args) throws Exception {
+        Class c1 = Student.class;
+        System.out.println(c1.getName()); // 全类名
+        System.out.println(c1.getSimpleName()); // 简名：Student
+
+        Class c2 = Class.forName("com.itheima.p2_reflect.Student");
+        System.out.println(c1 == c2);
+
+        Student s = new Student();
+        Class c3 = s.getClass();
+        System.out.println(c3 == c2);
+    }
+}
+
+```
+
+
+
+Student类
+
+```java
+package com.itheima.p2_reflect;
+
+public class Student {
+    private String name;
+    private int age;
+    private char sex;
+    private double height;
+    private String hobby;
+
+    public Student() {
+    }
+
+    public Student(String name, int age, char sex, double height, String hobby) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        this.height = height;
+        this.hobby = hobby;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public String getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
+    }
+}
+
+```
+
+
+
+```
+com.itheima.p2_reflect.Student
+Student
+true
+true
+```
+
+
+
+### 2.2 获取类的构造器
+
+
+
+- Class提供了从类中获取构造器的方法
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2021.13.57.png?raw=true)
+
+
+
+### 2.3 反射获取构造器的作用
+
+
+
+获取到构造器后，有什么作用呢？
+
+其实构造器的作用：**初始化对象并返回**。
+
+这里我们需要用到如下的两个方法，注意：这两个方法时属于Constructor的，需要用Constructor对象来调用。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2021.32.04.png?raw=true)
+
+
+
+获取构造器方法 + 作用介绍代码：
+
+```java
+package com.itheima.p2_reflect;
+
+import org.junit.Test;
+
+import java.lang.reflect.Constructor;
+import java.util.concurrent.atomic.AtomicInteger;
+
+/**
+ * 目标：掌握获取类的构造器，并对其进行操作。
+ */
+public class Test2Constructor {
+    @Test
+    public void testGetConstructors(){
+        // 1、反射第一步：必须先得到这个类的Class对象
+        Class c = Cat.class;
+        // 2、获取类的全部构造器
+        // Constructor[] constructors = c.getConstructors();
+        Constructor[] constructors = c.getDeclaredConstructors();
+        // 3、遍历数组中的每个构造器对象
+        for (Constructor constructor : constructors) {
+            System.out.println(constructor.getName() + "--->"
+                    + constructor.getParameterCount());
+        }
+    }
+
+    @Test
+    public void testGetConstructor() throws Exception {
+        // 1、反射第一步：必须先得到这个类的Class对象
+        Class c = Cat.class;
+        // 2、获取类的某个构造器：无参数构造器
+        Constructor constructor1 = c.getDeclaredConstructor();
+        System.out.println(constructor1.getName() + "--->"
+                + constructor1.getParameterCount());
+        constructor1.setAccessible(true); // 禁止检查访问权限
+        Cat cat = (Cat) constructor1.newInstance();
+        System.out.println(cat);
+
+        AtomicInteger a;
+
+
+        // 3、获取有参数构造器
+        Constructor constructor2 =
+                c.getDeclaredConstructor(String.class, int.class); // 一定要.class。有class才代表类型
+        System.out.println(constructor2.getName() + "--->"
+                + constructor2.getParameterCount());
+        constructor2.setAccessible(true); // 禁止检查访问权限
+        Cat cat2 = (Cat) constructor2.newInstance("叮当猫", 3);
+        System.out.println(cat2);
+
+    }
+}
+```
+
+
+
+Cat类
+
+````java
+package com.itheima.p2_reflect;
+
+public class Cat {
+    public static int a;
+    public static final String COUNTRY = "中国";
+    private String name;
+    private int age;
+
+    public Cat(){
+        System.out.println("无参数构造器执行了~~");
+    }
+
+    private Cat(String name, int age) {
+        System.out.println("有参数构造器执行了~~");
+        this.name = name;
+        this.age = age;
+    }
+
+    private void run(){
+        System.out.println("🐱跑的贼快~~");
+    }
+
+    public void eat(){
+        System.out.println("🐱爱吃猫粮~");
+    }
+
+    private String eat(String name){
+        return "🐱最爱吃:" + name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}
+
+````
+
+
+
+````
+com.itheima.p2_reflect.Cat--->0
+com.itheima.p2_reflect.Cat--->2
+com.itheima.p2_reflect.Cat--->0
+无参数构造器执行了~~
+Cat{name='null', age=0}
+com.itheima.p2_reflect.Cat--->2
+有参数构造器执行了~~
+Cat{name='叮当猫', age=3}
+````
+
+
+
+### 2.4 反射获取成员变量&使用
+
+
+
+- Class类中提供了获取成员变量的方法
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2021.41.23.png?raw=true)
+
+
+
+- 获取到成员变量的作用：依然是赋值、取值。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2021.50.43.png?raw=true)
+
+
+
+反射获取成员变量&使用代码
+
+```java
+package com.itheima.p2_reflect;
+
+import com.itheima.p2_reflect.Cat;
+import org.junit.Test;
+
+import java.lang.reflect.Field;
+
+/**
+ * 目标：掌握获取类的成员变量，并对其进行操作。
+ */
+public class Test3Field {
+    @Test
+    public void testGetFields() throws Exception {
+        // 1、反射第一步：必须是先得到类的Class对象
+        Class c = Cat.class;
+        // 2、获取类的全部成员变量。
+        Field[] fields = c.getDeclaredFields();
+        // 3、遍历这个成员变量数组
+        for (Field field : fields) {
+            System.out.println(field.getName() +  "---> "+ field.getType());
+        }
+        // 4、定位某个成员变量
+        Field fName = c.getDeclaredField("name");
+        System.out.println(fName.getName() + "--->" + fName.getType());
+
+        Field fAge = c.getDeclaredField("age");
+        System.out.println(fAge.getName() + "--->" + fAge.getType());
+
+        // 赋值
+        Cat cat = new Cat();
+        fName.setAccessible(true); // 禁止访问控制权限
+        fName.set(cat, "卡菲猫");
+        System.out.println(cat);
+
+        // 取值
+        String name = (String) fName.get(cat);
+        System.out.println(name);
+    }
+}
+
+```
+
+
+
+```
+a---> int
+COUNTRY---> class java.lang.String
+name---> class java.lang.String
+age---> int
+name--->class java.lang.String
+age--->int
+无参数构造器执行了~~
+Cat{name='卡菲猫', age=0}
+卡菲猫
+```
+
+
+
+### 2.5 反射获取成员方法
+
+
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2022.00.32.png?raw=true)
+
+
+
+成员方法获取 & 使用代码
+
+```java
+package com.itheima.p2_reflect;
+
+import com.itheima.p2_reflect.Cat;
+import org.junit.Test;
+
+import java.lang.reflect.Method;
+
+/**
+ * 目标：掌握获取类的成员方法，并对其进行操作。
+ */
+public class Test4Method {
+    @Test
+    public void testGetMethods() throws Exception {
+        //  1、反射第一步：先得到Class对象。
+        Class c = Cat.class;
+        // 2、获取类的全部成员方法。
+        Method[] methods = c.getDeclaredMethods();
+        // 3、遍历这个数组中的每个方法对象
+        for (Method method : methods) {
+            System.out.println(method.getName() + "--->"
+                    + method.getParameterCount() + "---->"
+                    + method.getReturnType());
+        }
+        //  4、获取某个方法对象
+        Method run = c.getDeclaredMethod("run"); // 拿run方法，无参数的
+        System.out.println(run.getName() + "--->"
+                + run.getParameterCount() + "---->"
+                + run.getReturnType());
+
+        Method eat = c.getDeclaredMethod("eat", String.class);
+        System.out.println(eat.getName() + "--->"
+                + eat.getParameterCount() + "---->"
+                + eat.getReturnType());
+
+        Cat cat = new Cat();
+        run.setAccessible(true); // 禁止检查访问权限
+        Object rs = run.invoke(cat); // 调用无参数的run方法，用cat对象触发调用的。
+        System.out.println(rs);
+
+        eat.setAccessible(true); // 禁止检查访问权限
+        String rs2 = (String) eat.invoke(cat, "鱼儿");
+        System.out.println(rs2);
+    }
+}
+
+```
+
+
+
+```
+getName--->0---->class java.lang.String
+run--->0---->void
+toString--->0---->class java.lang.String
+setName--->1---->void
+getAge--->0---->int
+setAge--->1---->void
+eat--->0---->void
+eat--->1---->class java.lang.String
+run--->0---->void
+eat--->1---->class java.lang.String
+无参数构造器执行了~~
+🐱跑的贼快~~
+null
+🐱最爱吃:鱼儿
+```
+
+
+
+### 2.6 反射的应用
+
+
+
+反射的作用
+
+- 基本作用：可以得到一个类的全部成分然后操作。
+- 可以破坏封装性。
+- 最重要的用途：适合做Java的框架。基本上，主流的框架都会基于反射设计出一些通用的功能。
+
+
+
+案例：使用反射做一个简易版的框架
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2022.19.14.png?raw=true)
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2022.19.52.png?raw=true" style="zoom:33%;" />
+
+
+
+需求是让我们写一个框架，能够将任意一个对象的属性名和属性值写到文件中去。不管这个对象有多少个属性，也不管这个对象的属性名是否相同。
+
+分析一下该怎么做
+
+````
+1.先写好两个类，一个Student类和Teacher类
+2.写一个ObjectFrame类代表框本架
+	在ObjectFrame类中定义一个saveObject(Object obj)方法，用于将任意对象存到文件中去
+	参数：Object obj: 就表示要存入文件中的对象
+	
+3.编写方法内部的代码，往文件中存储对象的属性名和属性值
+	1)参数obj对象中有哪些属性，属性名是什么实现值是什么，中有对象自己最清楚。
+	2)接着就通过反射获取类的成员变量信息了（变量名、变量值）
+	3)把变量名和变量值写到文件中去
+````
+
+
+
+创建一个测试类，在测试中类创建一个Student对象，创建一个Teacher对象，用ObjectFrame的方法把这两个对象所有的属性名和属性值写到文件中去。
+
+```java
+package com.itheima.p2_reflect;
+
+import com.itheima.p2_reflect.Student;
+import com.itheima.p2_reflect.Teacher;
+import org.junit.Test;
+/**
+ * 目标：使用反射技术：设计一个保存对象的简易版框架。
+ */
+public class Test5Frame {
+    @Test
+    public void save() throws Exception {
+        Student s1 = new Student("黑马吴彦祖", 45, '男', 185.3, "蓝球，冰球，阅读");
+        Teacher t1 = new Teacher("播妞", 999.9);
+
+        // 需求：把任意对象的字段名和其对应的值等信息，保存到文件中去。
+        ObjectFrame.saveObject(s1);
+        ObjectFrame.saveObject(t1);
+    }
+}
+
+```
+
+
+
+写一个ObjectFrame表示自己设计的框架，代码如下图所示
+
+```java
+package com.itheima.p2_reflect;
+
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.lang.reflect.Field;
+
+public class ObjectFrame {
+    // 目标：保存任意对象的字段和其数据到文件中去
+    public static void saveObject(Object obj) throws Exception {
+        PrintStream ps = new PrintStream(new FileOutputStream("/Users/Hardy/Desktop/JAVA/Code/javasepromax/junit-reflect-annotation-proxy-app/src/data.txt", true));
+        // obj是任意对象，到底有多少个字段要保存。
+        Class c = obj.getClass();
+        String cName = c.getSimpleName();
+        ps.println("---------------" + cName + "------------------------");
+        // 2、从这个类中提取它的全部成员变量
+        Field[] fields = c.getDeclaredFields();
+        // 3、遍历每个成员变量。
+        for (Field field : fields) {
+            // 4、拿到成员变量的名字
+            String name = field.getName();
+            // 5、拿到这个成员变量在对象中的数据。
+            field.setAccessible(true); // 禁止检查访问控制
+            String value = field.get(obj) + "";
+            ps.println(name + "=" + value);
+        }
+        ps.close();
+    }
+}
+
+```
+
+
+
+使用自己设计的框架，往文件中写入Student对象的信息和Teacher对象的信息。
+
+先准备好Student类和Teacher类
+
+```java
+public class Student{
+    private String name;
+    private int age;
+    private char sex;
+    private double height;
+    private String hobby;
+}
+```
+
+```java
+public class Teacher{
+    private String name;
+    private double salary;
+}
+```
+
+
+
+data.txt
+
+```
+---------------Student------------------------
+name=黑马吴彦祖
+age=45
+sex=男
+height=185.3
+hobby=蓝球，冰球，阅读
+---------------Teacher------------------------
+name=播妞
+salary=999.9
+
+```
+
+
+
+## 三、注解
+
+### 3.1 认识注解&定义注解
+
+
+
+注解（Annotation）
+
+- Java注解是代码中的特殊标记，比如@Override、@Test等，作用是：让其他程序根据注解信息决定怎么执行该程序。
+- 注解不光可以用在方法上，还可以用在类上、变量上、构造器上等位置。
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2022.45.36.png?raw=true" style="zoom:33%;" />
+
+
+
+自定义注解
+
+- 就是自己定义注解
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2022.46.45.png?raw=true" style="zoom:33%;" /> 
+
+
+
+特殊属性名：value
+
+- 如果注解中只有一个value属性，使用注解时，value名称可以不写。
+
+
+
+注解的原理
+
+想要搞清楚注解本质是什么东西，我们可以把注解的字节码进行反编译，使用XJad工具进行反编译。经过对MyTest1注解字节码反编译我们会发现：
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2022.54.59.png?raw=true" style="zoom:33%;" /> 
+
+
+
+注解介绍代码
+
+定义好MyTest注解之后，我们可以使用MyTest注解在类上、方法上等位置做标记。注意使用注解时需要加@符号，如下
+
+定义好MyTest2注解后，再将@MyTest2标记在类上，此时value属性名可以省略，代码如下
+
+````java
+package com.itheima.p3_annotation;
+
+import com.itheima.p3_annotation.MyTest1;
+
+@MyTest1(aaa="牛魔王", ccc={"HTML", "Java"})
+// @MyTest2(value = "孙悟空")
+//@MyTest2("孙悟空")
+//@MyTest2(value = "孙悟空", age = 1000)
+@MyTest2("孙悟空")
+public class AnnotationTest1 {
+    @MyTest1(aaa="铁扇公主", bbb=false, ccc={"Python", "前端", "Java"})
+    public void test1(){
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
+
+````
+
+
+
+MyTest1 Annotation
+
+```java
+package com.itheima.p3_annotation;
+
+/**
+ * 自定义注解
+ */
+public @interface MyTest1 {
+    String aaa();
+    boolean bbb() default true;
+    String[] ccc();
+}
+
+```
+
+
+
+MyTest2 Annotation
+
+注意：注解的属性名如何是value的话，并且只有value没有默认值，使用注解时value名称可以省略。比如现在重新定义一个MyTest2注解
+
+```java
+package com.itheima.p3_annotation;
+
+public @interface MyTest2 {
+    String value(); // 特殊属性
+    int age() default 23;
+}
+
+```
+
+
+
+### 3.2 元注解
+
+
+
+什么是元注解？
+
+- 元注解是修饰注解的注解
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2023.02.28.png?raw=true" style="zoom:33%;" />
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2023.03.16.png?raw=true" style="zoom:33%;" />
+
+
+
+
+
+```java
+package com.itheima.p3_annotation;
+
+/**
+ * 目标：认识元注解，搞清楚元注解的作用。
+ */
+@MyTest3
+public class AnnotationTest2 {
+
+    // @MyTest3 用在变量上有错
+    private String name;
+
+    @MyTest3
+    public void test(){
+
+    }
+}
+
+```
+
+
+
+MyTest3 Annotation
+
+```java
+package com.itheima.p3_annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE, ElementType.METHOD}) // 当前被修饰的注解只能用在类上，方法上。
+@Retention(RetentionPolicy.RUNTIME) // 控制下面的注解一直保留到运行时
+public @interface MyTest3 {
+}
+
+```
+
+
+
+### 3.3 解析注解
+
+
+
+什么是注解的解析？
+
+- 就是判断类上、方法上、成员变量上是否存在注解，并把注解里的内容给解析出来。
+
+
+
+如何解析注解？
+
+- 指导思想：要解析谁上面的注解，就应该先拿到谁。
+- 比如要解析类上面的注解，则应该先获取该类的Class对象，再通过Class对象解析其上面的注解。
+- 比如要解析成员方法上的注解，则应该获取成员方法的Method对象，再通过Method对象解析其上面的注解。
+- Class, Method, Field, Constructor，都实现了AnnotatedElement接口，它们都拥有解析注解的能力。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2023.34.32.png?raw=true)
+
+
+
+解析注解案例
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-07%2023.35.25.png?raw=true" style="zoom:33%;" />
+
+
+
+① 先定义一个MyTest4注解
+
+```java
+package com.itheima.p3_annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE,ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MyTest4 {
+    String value();
+    double aaa() default 100;
+    String[] bbb();
+}
+
+```
+
+
+
+② 定义有一个类Demo
+
+```java
+package com.itheima.p3_annotation;
+
+import com.itheima.p3_annotation.MyTest3;
+import com.itheima.p3_annotation.MyTest4;
+
+@MyTest4(value = "蜘蛛精", aaa=99.5, bbb = {"至尊宝", "黑马"})
+@MyTest3
+public class Demo {
+    @MyTest4(value = "孙悟空", aaa=199.9, bbb = {"紫霞", "牛夫人"})
+    public void test1(){
+    }
+}
+
+```
+
+
+
+③ 写一个测试类AnnotationTest3解析Demo类上的MyTest4注解
+
+```java
+package com.itheima.p3_annotation;
+
+import com.itheima.p3_annotation.Demo;
+import com.itheima.p3_annotation.MyTest4;
+import org.junit.Test;
+
+import java.lang.reflect.Method;
+import java.util.Arrays;
+
+/**
+ * 目标：掌握注解的解析。
+ */
+public class AnnotationTest3 {
+    @Test
+    public void parseClass(){
+        // 1、先得到Class对象
+        Class c = Demo.class;
+        // 2、解析类上的注解
+        // 判断类上是否包含了某个注解
+        if(c.isAnnotationPresent(MyTest4.class)){
+            MyTest4 myTest4 =
+                    (MyTest4) c.getDeclaredAnnotation(MyTest4.class);
+            System.out.println(myTest4.value());
+            System.out.println(myTest4.aaa());
+            System.out.println(Arrays.toString(myTest4.bbb()));
+        }
+    }
+
+    @Test
+    public void parseMethod() throws Exception {
+        // 1、先得到Class对象
+        Class c = Demo.class;
+        Method m = c.getDeclaredMethod("test1");
+        // 2、解析方法上的注解
+        // 判断方法对象上是否包含了某个注解
+        if(m.isAnnotationPresent(MyTest4.class)){
+            MyTest4 myTest4 =
+                    (MyTest4) m.getDeclaredAnnotation(MyTest4.class);
+            System.out.println(myTest4.value());
+            System.out.println(myTest4.aaa());
+            System.out.println(Arrays.toString(myTest4.bbb()));
+        }
+    }
+}
+
+```
+
+
+
+### 3.4 注解的应用场景
+
+
+
+案例：模拟Junit框架
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-08%2000.28.09.png?raw=true" style="zoom:33%;" />
+
+
+
+第一步：先定义一个MyTest注解
+
+```java
+package com.itheima.p3_annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.METHOD) // 注解只能注解方法。
+@Retention(RetentionPolicy.RUNTIME) // 让当前注解可以一直存活着。
+public @interface MyTest {
+}
+
+```
+
+
+
+第二步：写一个测试类AnnotationTest4，在类中定义几个被@MyTest注解标记的方法
+
+```java
+package com.itheima.p3_annotation;
+
+import java.lang.reflect.Method;
+
+/**
+ * 目标：模拟Junit框架的设计。
+ */
+public class AnnotationTest4 {
+    // @MyTest
+    public void test1(){
+        System.out.println("===test1====");
+    }
+
+    @MyTest
+    public void test2(){
+        System.out.println("===test2====");
+    }
+
+    @MyTest
+    public void test3(){
+        System.out.println("===test3====");
+    }
+
+    @MyTest
+    public void test4(){
+        System.out.println("===test4====");
+    }
+
+    public static void main(String[] args) throws Exception {
+        AnnotationTest4 a = new AnnotationTest4();
+        // 启动程序！
+        // 1、得到Class对象
+        Class c = AnnotationTest4.class;
+        // 2、提取这个类中的全部成员方法
+        Method[] methods = c.getDeclaredMethods();
+        // 3、遍历这个数组中的每个方法，看方法上是否存在@MyTest注解，存在
+        // 触发该方法执行。
+        for (Method method : methods) {
+            if(method.isAnnotationPresent(MyTest.class)){
+                // 说明当前方法上是存在@MyTest，触发当前方法执行。
+                method.invoke(a);
+            }
+        }
+    }
+}
+
+```
+
+
+
+
+
+## 四、动态代理
+
+
+
+### 4.1 动态代理介绍、准备功能
+
+
+
+假设现在有一个大明星叫杨超越，它有唱歌和跳舞的本领，作为大明星是要用唱歌和跳舞来赚钱的，但是每次做节目，唱歌的时候要准备话筒、收钱，再唱歌；跳舞的时候也要准备场地、收钱、再唱歌。杨超越越觉得我擅长的做的事情是唱歌，和跳舞，但是每次唱歌和跳舞之前或者之后都要做一些繁琐的事情，有点烦。于是杨超越就找个一个经济公司，请了一个代理人，代理杨超越处理这些事情，如果有人想请杨超越演出，直接找代理人就可以了。如下图所示
+
+我们说杨超越的代理是中介公司派的，那中介公司怎么知道，要派一个有唱歌和跳舞功能的代理呢？
+
+解决这个问题，Java使用的是接口，杨超越想找代理，在Java中需要杨超越实现了一个接口，接口中规定要唱歌和跳舞的方法。Java就可以通过这个接口为杨超越生成一个代理对象，只要接口中有的方法代理对象也会有。
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-08%2000.47.47.png?raw=true)
+
+
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-08%2001.32.06.png?raw=true)
+
+
+
+
+
+我们就先把有唱歌和跳舞功能的接口，和实现接口的大明星类定义出来。
+
+```java
+package com.itheima.p4_proxy;
+
+public interface Star {
+    String sing(String name);
+    void dance();
+}
+
+```
+
+
+
+````java
+package com.itheima.p4_proxy;
+
+public class BigStar implements Star{
+    private String name;
+
+    public BigStar(String name) {
+        this.name = name;
+    }
+
+    public String sing(String name){
+        System.out.println(this.name + "正在唱：" + name);
+        return "谢谢！谢谢！";
+    }
+
+    public void dance(){
+        System.out.println(this.name  + "正在优美的跳舞~~");
+    }
+}
+
+````
+
+
+
+下面我们写一个为BigStar生成动态代理对象的工具类。这里需要用Java为开发者提供的一个生成代理对象的类叫Proxy类。
+
+```java
+package com.itheima.p4_proxy;
+
+import com.itheima.p4_proxy.BigStar;
+import com.itheima.p4_proxy.Star;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+public class ProxyUtil {
+    public static Star createProxy(BigStar bigStar){
+       /* newProxyInstance(ClassLoader loader,
+                Class<?>[] interfaces,
+                InvocationHandler h)
+                参数1：用于指定一个类加载器.加载生成的代理类
+                参数2：指定生成的代理长什么样子，也就是有哪些方法
+                参数3：用来指定生成的代理对象要干什么事情
+                */
+        // Star starProxy = ProxyUtil.createProxy(s);
+        // starProxy.sing("好日子") starProxy.dance()
+        Star starProxy = (Star) Proxy.newProxyInstance(ProxyUtil.class.getClassLoader(),
+                new Class[]{Star.class}, new InvocationHandler() {
+                    @Override // 回调方法
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                        // 代理对象要做的事情，会在这里写代码
+                        if(method.getName().equals("sing")){
+                            System.out.println("准备话筒，收钱20万");
+                        }else if(method.getName().equals("dance")){
+                            System.out.println("准备场地，收钱1000万");
+                        }
+                        return method.invoke(bigStar, args);
+                    }
+                });
+        return starProxy;
+    }
+}
+
+```
+
+
+
+调用我们写好的ProxyUtil工具类，为BigStar对象生成代理对象
+
+```java
+package com.itheima.p4_proxy;
+
+import com.itheima.p4_proxy.BigStar;
+import com.itheima.p4_proxy.ProxyUtil;
+import com.itheima.p4_proxy.Star;
+
+public class Test {
+    public static void main(String[] args) {
+        BigStar s = new BigStar("杨超越");
+        Star starProxy = ProxyUtil.createProxy(s);
+
+        String rs = starProxy.sing("好日子");
+        System.out.println(rs);
+
+        starProxy.dance();
+    }
+}
+
+```
+
+
+
+运行测试类，结果如下
+
+```
+准备话筒，收钱20万
+杨超越正在唱：好日子
+谢谢！谢谢！
+准备场地，收钱1000万
+杨超越正在优美的跳舞~~
+```
+
+
+
+程序梳理
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-08%2001.30.37.png?raw=true)
+
+
+
+![](https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-08%2001.31.35.png?raw=true)
+
+
+
+### 4.2 动态代理应用
+
+
+
+<img src="https://github.com/HardyDLBC/JAVAnote/blob/main/JAVA%E5%85%A5%E9%97%A8%E9%BB%91%E9%A9%AC%E5%BE%90%E7%A3%8A/%E5%9B%BE%E7%89%87/%E6%88%AA%E5%B1%8F2024-01-08%2001.36.56.png?raw=true" style="zoom:33%;" />
+
+
+
+现有如下代码
+
+`````java
+package com.itheima.p5_proxy2;
+/**
+ *  用户业务接口
+ */
+public interface UserService {
+    // 登录功能
+    void login(String loginName,String passWord) throws Exception;
+    // 删除用户
+    void deleteUsers() throws Exception;
+    // 查询用户，返回数组的形式。
+    String[] selectUsers() throws Exception;
+}
+
+`````
+
+下面有一个UserService接口的实现类，下面每一个方法中都有计算方法运行时间的代码。先在UserService类中把计算耗时的代码删除，代码如下
+
+```java
+package com.itheima.p5_proxy2;
+
+/**
+ * 用户业务实现类（面向接口编程）
+ */
+public class UserServiceImpl implements UserService{
+    @Override
+    public void login(String loginName, String passWord) throws Exception {
+        if("admin".equals(loginName) && "123456".equals(passWord)){
+            System.out.println("您登录成功，欢迎光临本系统~");
+        }else {
+            System.out.println("您登录失败，用户名或密码错误~");
+        }
+        Thread.sleep(1000);
+    }
+
+    @Override
+    public void deleteUsers() throws Exception{
+        System.out.println("成功删除了1万个用户~");
+        Thread.sleep(1500);
+    }
+
+    @Override
+    public String[] selectUsers() throws Exception{
+
+        System.out.println("查询出了3个用户");
+        String[] names = {"张全蛋", "李二狗", "牛爱花"};
+        Thread.sleep(500);
+
+        return names;
+    }
+}
+
+```
+
+然后为UserService生成一个动态代理对象，在动态代理中调用目标方法，在调用目标方法之前和之后记录毫秒值，并计算方法运行的时间。代码如下
+
+```java
+package com.itheima.p5_proxy2;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+public class ProxyUtil {
+    public static UserService createProxy(UserService userService){
+        UserService userServiceProxy = (UserService) Proxy.newProxyInstance(ProxyUtil.class.getClassLoader(),
+                new Class[]{UserService.class}, new InvocationHandler() {
+                    @Override
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+
+                        if(method.getName().equals("login") || method.getName().equals("deleteUsers")||
+                               method.getName().equals("selectUsers")){
+                            long startTime = System.currentTimeMillis();
+
+                            Object rs = method.invoke(userService, args);
+
+                            long endTime = System.currentTimeMillis();
+                            System.out.println(method.getName() + "方法执行耗时：" + (endTime - startTime)/ 1000.0 + "s");
+                            return rs;
+                        }else {
+                            Object rs = method.invoke(userService, args);
+                            return rs;
+                        }
+                    }
+                });
+        return userServiceProxy;
+    }
+}
+
+```
+
+在测试类中为UserService创建代理对象
+
+```java
+package com.itheima.p5_proxy2;
+
+import com.itheima.p5_proxy2.ProxyUtil;
+
+import java.util.Arrays;
+
+/**
+ * 目标：使用动态代理解决实际问题，并掌握使用代理的好处。
+ */
+public class Test {
+    public static void main(String[] args) throws Exception{
+        // 1、创建用户业务对象。
+        UserService userService = ProxyUtil.createProxy(new UserServiceImpl());
+
+        // 2、调用用户业务的功能。
+        userService.login("admin", "123456");
+        System.out.println("----------------------------------------------------");
+
+        userService.deleteUsers();
+        System.out.println("----------------------------------------------------");
+
+        String[] names = userService.selectUsers();
+        System.out.println("查询到的用户是：" + Arrays.toString(names));
+        System.out.println("----------------------------------------------------");
+
+    }
+}
+
+```
+
+
+
+```
+您登录成功，欢迎光临本系统~
+login方法执行耗时：1.006s
+----------------------------------------------------
+成功删除了1万个用户~
+deleteUsers方法执行耗时：1.503s
+----------------------------------------------------
+查询出了3个用户
+selectUsers方法执行耗时：0.506s
+查询到的用户是：[张全蛋, 李二狗, 牛爱花]
+----------------------------------------------------
+```
 
 
 
